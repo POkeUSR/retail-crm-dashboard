@@ -11,10 +11,10 @@ import {
   CartesianGrid,
 } from 'recharts';
 
-// Вставляем ключи напрямую для демо-проекта
+// Вставляем ключи напрямую для демо-проекта и удаляем их в github 
 const supabase = createClient(
   'https://xonptgfffunbtlbmdhoe.supabase.co',
-  'sb_publishable_fRq8cE5cdgz1KbYYu8R13A_SifPzQ8g',
+  'sb_блаблаkeys',
 );
 
 export default function Dashboard() {
