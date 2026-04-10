@@ -1,0 +1,30 @@
+{
+  "name": "retail-crm-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "vercel-build": "next build",
+    "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier . --write",
+    "check": "prettier . --check && npm run lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "axios": "latest",
+    "dotenv": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.15",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.2.5"
+  }
+}

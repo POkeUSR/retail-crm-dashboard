@@ -1,0 +1,16 @@
+# Сборка и зависимости
+node_modules
+.next
+out
+build
+dist
+
+# Статика и логи
+public
+*.log
+.env
+.env.*
+
+# Конфиги (их лучше не трогать форматированием)
+package-lock.json
+next.config.js
