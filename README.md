@@ -59,11 +59,3 @@
 *   **Решение:** Внедрены проверки инициализации и временный переход на **CSR** (Client Side Rendering) для стабильности пайплайна.
 
 ---
-
-### 📦 Как запустить проект
-
-**1. Клонирование и установка:**
-```bash
-git clone https://github.com/ВАШ_ЛОГИН/retail-crm-dashboard.git
-cd retail-crm-dashboard
-npm install
